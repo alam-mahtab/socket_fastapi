@@ -1,0 +1,8 @@
+version: '3.7'
+services: 
+  chat_api:
+      build: .
+      container_name: "chat-api-container"
+      restart: "always"
+      ports: 
+      - "8200:15400"
